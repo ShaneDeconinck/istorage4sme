@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# iStorage4SME web app
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Built using Nuxt v3
+Using Sanity.io as headless CMS
 
 ## Setup
 
@@ -12,9 +13,6 @@ yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -27,16 +25,8 @@ npm run dev
 
 ## Production
 
-Build the application for production:
+Generate the SSG for production:
 
 ```bash
-npm run build
+npm run generate
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
