@@ -11,7 +11,8 @@
           <li><NuxtLink to="/knowledgebase">Kennisdatabank</NuxtLink></li>
           <li><NuxtLink to="/demonstrators">Demonstrators</NuxtLink></li>
           <li><NuxtLink to="/webinars">Webinars</NuxtLink></li>
-          <li><NuxtLink to="/contact-us">Contacteer ons</NuxtLink></li>
+          <li><NuxtLink to="/publicaties">Publicaties</NuxtLink></li>
+          <li><NuxtLink to="/contacteer-ons">Contacteer ons</NuxtLink></li>
         </ul>
       </nav>
     </header>
@@ -23,11 +24,3 @@
     </footer>
   </div>
 </template>
-
-<script >
-export default {
-  head: {
-    title: "iStorage4SME",
-  },
-};
-</script>
