@@ -17,6 +17,7 @@
   "dependencies": {
     "@nuxtjs/sanity": "^1.5.0",
     "@sanity/image-url": "^1.0.1",
-    "ipx": "^1.0.0-2"
+    "ipx": "^1.0.0-2",
+    "sanity-blocks-vue-component": "^1.0.1"
   }
 }

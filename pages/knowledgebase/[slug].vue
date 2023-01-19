@@ -5,12 +5,14 @@
     </div>
     <div class="w-2/3">
       <h1>{{ page.number }} {{ page.title }}</h1>
-      <SanityContent :blocks="page.body" :serializers="serializers" />
+      <SanityBlocks :blocks="page.body" :serializers="serializers" />
     </div>
   </div>
 </template>
 
 <script setup>
+import { SanityBlocks } from "sanity-blocks-vue-component";
+
 const route = useRoute();
 const queryPage = groq`*[_type == "knowledgeBasePage" && slug.current == $slug][0]
  {
@@ -26,6 +28,7 @@ const serializers = {
   types: {
     // This is how to access a component registered by `@nuxt/components`
     image: resolveComponent("SanityImage"),
+    table: resolveComponent("SanityTable"),
   },
 };
 </script>

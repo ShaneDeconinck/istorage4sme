@@ -12,27 +12,27 @@ nav > ul, ul.nav, ul.nav ul {
 
 
 h1 {
-    @apply text-4xl font-bold dark:text-white mb-4 mt-6;
+    @apply text-4xl font-bold mb-4;
 }
 
 h2 {
-    @apply text-3xl font-bold dark:text-white mb-4 mt-6 border-t border-gray-200 pt-4;
+    @apply text-3xl font-bold mb-4 mt-6 border-t border-gray-200 pt-4;
 }
 
 h3 {
-    @apply text-2xl font-bold dark:text-white mb-4;
+    @apply text-2xl font-bold mb-4;
 }
 
 h4 {
-    @apply text-xl font-bold dark:text-white mb-4;
+    @apply text-xl font-bold mb-4;
 }
 
 h5 {
-    @apply text-lg font-bold dark:text-white mb-4;
+    @apply text-lg font-bold mb-4;
 }
 
 p {
-    @apply mb-3 font-light text-gray-600 dark:text-gray-400;
+    @apply mb-3 font-light text-gray-600;
 }
 
 ul {
