@@ -1,4 +1,5 @@
 <template>
+  <h2 class="border-0">Webinars</h2>
   <div class="flex space-x-4">
     <ul>
       <li v-for="webinar in webinars">

@@ -5,7 +5,11 @@ export default defineNuxtConfig({
       charset: "utf-16",
       viewport: "width=500, initial-scale=1",
       title: "iStorage4SME",
-      meta: [{ name: "description", content: "VLAIO TETRA iStorage4SME." }],
+      meta: [
+        { name: "description", content: "VLAIO TETRA iStorage4SME." },
+
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+      ],
     },
   },
   css: ["~/assets/css/main.css"],
