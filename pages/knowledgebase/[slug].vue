@@ -1,11 +1,12 @@
 <template>
-  <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
-    <div class="hidden md:block md:w-1/3">
-      <MenuComponent />
-    </div>
-    <div class="xl:w-2/3">
-      <h1>{{ page.number }} {{ page.title }}</h1>
-      <SanityBlocks :blocks="page.body" :serializers="serializers" />
+  <div>
+    <MobileMenuComponent class="lg:hidden w-full block" />
+    <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+      <MenuComponent class="hidden md:block md:w-1/3" />
+      <div class="xl:w-2/3">
+        <h1>{{ page.number }} {{ page.title }}</h1>
+        <SanityBlocks :blocks="page.body" :serializers="serializers" />
+      </div>
     </div>
   </div>
 </template>
