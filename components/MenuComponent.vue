@@ -1,20 +1,20 @@
 <template>
   <ul class="nav">
-    <li v-for="page in pages">
+    <li v-for="page in pages" :key="page._ref">
       <NuxtLink :to="`/knowledgebase/${page.slug ? page.slug.current : ''}`">{{
         `${page.number} ${page.title}`
       }}</NuxtLink>
 
       <hr />
       <ul class="ml-2 mt-4" v-if="page.children != null">
-        <li v-for="page in page.children" v-if="page.children != null">
+        <li v-for="page in page.children" :key="page._ref">
           <NuxtLink
             :to="`/knowledgebase/${page.slug ? page.slug.current : ''}`"
             >{{ `${page.number} ${page.title}` }}</NuxtLink
           >
           <hr />
           <ul class="ml-2" v-if="page.children != null">
-            <li v-for="page in page.children">
+            <li v-for="page in page.children" :key="page._ref">
               <NuxtLink
                 :to="`/knowledgebase/${page.slug ? page.slug.current : ''}`"
                 >{{ `${page.number} ${page.title}` }}</NuxtLink

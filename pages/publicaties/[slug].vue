@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="xl:w-3/4 xl:mx-auto">
     <h1>{{ post.title }}</h1>
 
     <SanityContent :blocks="post.body" :serializers="serializers" />

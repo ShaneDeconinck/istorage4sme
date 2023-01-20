@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="xl:w-3/4 xl:mx-auto">
     <h1>{{ webinar.title }}</h1>
 
     <SanityBlocks :blocks="webinar.description" :serializers="serializers" />

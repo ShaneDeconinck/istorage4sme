@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="xl:w-3/4 xl:mx-auto">
     <MobileMenuComponent class="lg:hidden w-full block" />
     <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
       <MenuComponent class="hidden md:block md:w-1/3" />
