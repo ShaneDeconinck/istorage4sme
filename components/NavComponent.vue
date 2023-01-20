@@ -221,6 +221,11 @@ export default {
       menuShow: false,
     };
   },
+  watch: {
+    $route() {
+      this.menuShow = false;
+    },
+  },
   methods: {
     toggleNavbar: function () {
       this.menuShow = !this.menuShow;

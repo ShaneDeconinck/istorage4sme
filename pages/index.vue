@@ -1,5 +1,7 @@
 <template>
-  <div class="lg:w-2/3"><SanityContent :blocks="generalContent.home" /></div>
+  <div class="xl:w-3/4 xl:mx-auto">
+    <SanityContent :blocks="generalContent.home" />
+  </div>
 </template>
 
 <script setup>

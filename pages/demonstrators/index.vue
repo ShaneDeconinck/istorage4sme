@@ -1,4 +1,5 @@
 <template>
+  <h2 class="border-0">Demonstrators</h2>
   <div class="flex space-x-4">
     <ul>
       <li v-for="demonstrator in demonstrators">

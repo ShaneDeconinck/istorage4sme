@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-auto w-full 2xl:w-3/4">
-    <header class="mx-auto mb-8">
+  <div class="">
+    <header class="mb-8 xl:w-3/4 xl:mx-auto">
       <h1>TETRA iStorage4SME</h1>
       <p>
         Intelligente Geavanceerde Anomalie Detectie bij de opslag en transport
