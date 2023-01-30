@@ -144,6 +144,24 @@
                     text-gray-700
                     hover:opacity-75
                   "
+                  to="/slotevent"
+                  >Slotevent</NuxtLink
+                >
+              </li>
+              <li class="mb-0">
+                <NuxtLink
+                  class="
+                    pl-4
+                    py-2
+                    flex
+                    items-center
+                    text-xs
+                    uppercase
+                    font-semibold
+                    leading-snug
+                    text-gray-700
+                    hover:opacity-75
+                  "
                   to="/demonstrators"
                   >Demonstrators</NuxtLink
                 >
